@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 export const HeroBanner: React.FC = () => {
-  const logo = "https://cdn.auth0.com/blog/developer-hub/nextjs-logo.svg";
+  const logo = "https://www.svgrepo.com/show/277498/lecture-class.svg";
 
   return (
     <div className="hero-banner hero-banner--pink-yellow">
@@ -15,20 +15,10 @@ export const HeroBanner: React.FC = () => {
           width={108}
         />
       </div>
-      <h1 className="hero-banner__headline">Hello, Next.js World!</h1>
+      <h1 className="hero-banner__headline">Welcome!</h1>
       <p className="hero-banner__description">
-        This is a sample application that demonstrates the authentication flow
-        for Next.js web apps using <strong>Auth0</strong>.
+        This is a proof of concept site for a class project.
       </p>
-      <a
-        id="code-sample-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://developer.auth0.com/resources/code-samples/web-app/nextjs/basic-authentication/typescript"
-        className="button button--secondary"
-      >
-        Check out the Next.js code sample →
-      </a>
     </div>
   );
 };

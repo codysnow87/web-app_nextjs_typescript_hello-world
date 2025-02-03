@@ -8,8 +8,8 @@ export const NavBarBrand: React.FC = () => {
       <Link href="/">
         <Image
           className="nav-bar__logo"
-          src="https://cdn.auth0.com/blog/hub/code-samples/hello-world/auth0-logo.svg"
-          alt="Auth0 shield logo"
+          src="https://www.svgrepo.com/show/277498/lecture-class.svg"
+          alt="Lecture Class SVG Vector Image"
           width={122}
           height={36}
         />
